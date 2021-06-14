@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Pilija</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style_zakazivanje.css" />
+		<link rel="shortcut icon" href="img/icon.png"/>
+		<script type="text/JavaScript" src="js/udji.js"></script>
+		
+	</head>
+	<body>
+		
+		<div id="wrapper">
+			<header id="iznadSvega">
+				<div id="registruj">
+					<a href="registrujSe.html" target="_blank">Udji u Bandu!</a>
+				</div>
+				<div class="cleaner"></div>
+			</header>
+			<nav id="meni">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="ko.html" target="_self">Ko Sam Ja?</a></li>
+					<li><a href="cenovnik.html" target="_self">Cenovnik</a></li>
+					<li><a href="#" target="_self">Zakazite Me!</a></li>
+				</ul>
+			</nav>
+		</div>
+		<article id="sredina">
+			<div id="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22642.52627782767!2d20.481769809448224!3d44.815130998967255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab2453c4ba1%3A0xb81037438bba0036!2sRepublic%20Square!5e0!3m2!1sen!2srs!4v1580143087602!5m2!1sen!2srs">
+				</iframe>
+			</div>
+			<div id="forma">
+				<form id="forma" name="form1" onsubmit="validateForm()">
+						<table cellspacing="5" cellpadding="15" >
+							<tr>
+								<td>Vas grad:</td>
+								<td>
+									<select name="city" id="city">
+										<option value="-1" selected>[choose your city]<option>
+										<option value="1">Beograd<option>
+										<option value="2">Novi Sad<option>
+										<option value="3">Nis<option>
+										<option value="4">Kragujevac<option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Unesite Adresu:</td>
+								<td><input type="text" id="address"></td>
+							</tr>
+							<tr>
+								<td>Podnesi</td>
+								<td><input type="submit" value="PODNESI"></td>
+							</tr>
+							<tr>
+							<td>Ponisti/td>
+							<td><input type="reset" value="PONISTI"></td>
+							</tr>
+						</table>
+					</form>
+			</div>
+		</article>
+		<footer id="footer">
+			<div id="socials">
+				<h2>Zapratite!</h2>
+				<div class="slika1"><a href="#"></a></div>
+				<div class="slika2"><a href="#" ></a></div>
+				<div class="slika3"><a href="https://www.instagram.com/pecenkesten/" target="_blank"></a></div>
+				<div class="slika4"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"></a></div>
+				<div class="cleaner"></div>
+			</div>
+			<div id="legitimitet">
+			<h2>Legalna klauzula</h2>
+			<p>Po stavu 13 iz clanka 12</p>
+			<p>ovo vozilo je ovlasceno da</p>
+			<p>ima pokretnu S.T.R.</p>
+			<p>Porezi po stavu 13 iz clanka 37</p>
+			</div>
+			<div class="cleaner"></div>
+		</footer>
+	</body>
+</html>	

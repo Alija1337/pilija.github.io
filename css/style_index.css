@@ -1,0 +1,179 @@
+*{
+	margin: 0px auto;
+}
+.cleaner{
+	clear:both;
+}
+#wrapper{
+	margin: 0px auto;
+	width: auto;
+	background-color: #fcb61e;
+	height:100%;
+}
+#iznadSvega{
+	background-image: url('../img/dekoracija.jpeg');
+	margin: 0px auto;
+	height: 200px;
+	width: auto;
+	background-repeat:repeat-x;
+	background-size: cover;
+	}
+#registruj{
+	background-color: #edca3e;
+	float:right;
+	height: 50px;
+	width: 180px;
+	border-bottom-left-radius: 70%;
+	border-bottom-right-radius: 50%;
+}
+
+#registruj a{
+	font-family: Ink Free;
+	font-size: 25px;
+	margin-left: 25px;
+	color: black;
+}
+#registruj a:hover{	
+	color: red;
+}
+#meni{
+	height: 50px;
+	width: auto;
+	background-color: #edca3e;
+}
+#meni ul{
+	list-style-type: none;
+	margin: 0px auto;
+	display: flex;
+}
+#meni ul li{
+	height: 50px;
+	background-color: #edca3e;
+	float: left;
+	font-family: Ink Free;
+	font-size: 38px;
+    width: 100%;
+}
+#meni ul li a{
+	text-decoration: none;
+	color: black;
+	margin-right: 45px;
+	margin-left: 4px;
+}
+#meni ul li a:hover{
+	color: red;
+	text-decoration:underline;
+}
+#article{
+	margin: 0px 50px;
+	height: 50%;
+	width: auto;
+}
+#levaStrana{
+	float: left;
+}
+#levaStrana h1{
+	font-family:Ink Free;
+	font-size:50px;
+	text-align:center;
+}
+#levaStrana img{
+	width:900px;
+	height: 400px;
+	padding: 20px;
+	object-fit:fill;
+	float: left;
+}
+#desnaStrana{
+	margin: 0px auto;
+	height: 50%;
+	width: 100%;
+}
+#desnaStrana h1{
+	font-family:Ink Free;
+	font-size:50px;
+	text-align:center;
+}
+#desnaStrana img{
+	width:900px;
+	height: 400px;
+	padding: 20px;
+	object-fit:fill;
+	float: right;
+}
+#footer{
+	margin: 0px auto;
+	background-color: #bf8402;
+	width: auto;
+	height: 175px;
+}
+#socials{
+	height: 175px;
+	width: auto;
+	float: left;
+}
+#socials a{
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin-right: 5px;
+}
+#socials h2{
+	font-family:Ink Free;
+	font-size:50px;
+	text-align:center;
+}
+.slika1{
+	width: 45px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+	background-image: url('../img/social.png');
+	background-position: -10px 80px;
+	border-radius: 100%;
+}
+.slika2{
+	width: 45px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-image: url('../img/social.png');
+	background-position: -153px 227px;
+	border-radius: 100%;
+}
+.slika3{
+	width: 45px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-image: url('../img/social.png');
+	background-position: 104px -110px;
+	border-radius: 100%;
+}
+.slika4{
+	width: 45px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-image: url('../img/social.png');
+	background-position: -8px -13px;
+	border-radius: 100%;
+}
+#legitimitet {
+	float:right;
+	height:100;
+	width:300px;
+}
+#legitimitet h2{
+	font-family:Ink Free;
+	font-size:30px;
+}
+#legitimitet p{
+	font-family:Ink Free;
+	font-size:20px;
+}
+
